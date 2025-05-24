@@ -1,0 +1,35 @@
+/* Apply a bold pixel-style font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background: linear-gradient(to bottom right, #1a1a1a, #2d0055);
+  color: #00ffcc;
+  font-family: 'Press Start 2P', monospace;
+  text-align: center;
+  padding: 60px 20px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ff00cc;
+  text-shadow: 0 0 10px #ff00cc, 0 0 20px #ff00cc;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 1em;
+  color: #00ffcc;
+  text-shadow: 0 0 5px #00ffcc;
+}
+
+a {
+  color: #ffff00;
+  text-decoration: none;
+  border-bottom: 2px solid #ffff00;
+}
+
+a:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+}
